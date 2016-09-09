@@ -10,3 +10,6 @@
 
 3. Request生命周期
     > 即：只有本次http请求才有效，通俗点讲，如果你定义一个变量的生命周期是Request级别，刷新一次页面后，该变量就被初始化(重新投胎)了。
+
+4. Conversation生命周期
+    > 我们在web开发中，经常会用到ajax，page1上的ajax向另一个页面page2发起请求时，会建立client到server的短时连接，如果想在ajax请求期间，让> 多个page之间共同访问一些变量(或对象)，请求结束时这些对象又自动销毁(注：显然SessionScoped、ApplicationScoped、RequestScoped都不太适>> 合这种需求)，这时可以考虑使用ConversionScoped.  
