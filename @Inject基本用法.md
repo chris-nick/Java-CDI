@@ -22,7 +22,7 @@
       ...
     }
   - Initializer methods Dependency injection.
-  - 
+  
     public class SomeBean{
       
       private Service service;
