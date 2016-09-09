@@ -1,5 +1,5 @@
 ## @Inject基本用法
-  - Filed Dependency injection
+  - Filed Dependency injection.
     public class SomeBean{
     
       @Inject
@@ -7,7 +7,7 @@
       
       ...
     }
-  - Constructor Dependency injection
+  - Constructor Dependency injection.
     public class SomeBean{
       
       private final Service service;
@@ -19,7 +19,7 @@
       
       ...
     }
-  - Initializer methods Dependency injection
+  - Initializer methods Dependency injection.
     public class SomeBean{
       
       private Service service;
